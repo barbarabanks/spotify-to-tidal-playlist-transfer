@@ -14,8 +14,8 @@ user = session.user
 
 #Initialize Spotify stuff
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
-    client_id="eb85a05e261d449aab28e4a91877593d",
-    client_secret="202c6169128a4259a0f47f838dda04f0",
+    client_id="***your id***",
+    client_secret="***your secret***",
     redirect_uri="https://www.pictureofhotdog.com/",
     scope="user-library-read" #This may need to be changed
 ))
